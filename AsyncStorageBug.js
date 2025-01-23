@@ -1,0 +1,1 @@
+This React Native bug arises when using AsyncStorage to store and retrieve data.  Specifically, the issue is that when attempting to retrieve data using `AsyncStorage.getItem`, the returned value is always null, even though data has been previously stored using `AsyncStorage.setItem`. This happens inconsistently, sometimes working correctly and sometimes returning null.
